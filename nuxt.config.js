@@ -19,7 +19,7 @@ export default {
   env: {
     API_KEY: process.env.API_KEY || 'e340a4fe0082665c1bf2c8d085838c46',
   },
-
+  target: 'static',
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
